@@ -1,0 +1,5 @@
+add_executable(logfile_test LogFile_test.cpp)
+target_link_libraries(logfile_test xeg_base)
+
+add_executable(AsyncLogging_test AsyncLogging_test.cpp)
+target_link_libraries(AsyncLogging_test xeg_base)
